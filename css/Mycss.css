@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #CCCCCC;
+}
+#logo{
+    margin: 0;
+    padding: 0;
+}
+#myCarousel {
+    margin-top:50px;
+}
+#logo>img{
+    height: 50px;
+}
+.carousel-indicators .active{
+    background-color: orange!important;
+    width: 20px;
+    height: 20px;
+}
+.carousel-indicators li{
+    height: 20px;
+    width: 20px;
+}
+#come{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    color: white;
+    /*color: #0059b2;*/
+    background-color: #CCCCCC;
+    border-radius: 10px;
+}
+#come:hover{
+    background-color: #0059b2;
+}
+.carousel-inner img {
+    margin: 0 auto;
+}
+.carousel-control{
+    font-size:100px;
+}
+.tab-h2 {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #0059b2;
+}
+.tab1 {
+    margin: 30px 0;
+    color: #666;
+}
+.tab-p {
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #999;
+    margin: 20px 0 40px 0;
+}
+.tab1 .text-muted {
+    color: #999;
+    text-decoration: line-through;
+}
+.tab1 .media-heading {
+    margin: 5px 0 20px 0;
+}
+.tab1 .col {
+    padding: 20px;
+}
+.tab2 {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #CCCCCC;
+}
+.tab2 img {
+    width: 80%;
+    height: 66%;
+}
+.tab3 {
+    padding: 60px 20px;
+    text-align: center;
+}
+.tab3 img {
+    width: 80%;
+    height: 65%;
+}
+.text h3 {
+    font-size: 20px;
+}
+.text p {
+    font-size: 14px;
+}
+.tab4 {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #CCCCCC;
+}
+.tab4 img {
+    width: 80%;
+    height: 66%;
+}
+.tab5 {
+    padding: 60px 20px;
+    text-align: center;
+}
+.tab5 img {
+    width: 80%;
+    height: 66%;
+}
+.jumbotron {
+    background-image: url(../img/bg.jpg);
+    margin: 50px 0 0 0;
+    color: #ccc;
+}
+.jumbotron h1 {
+    font-size: 26px;
+    padding: 0 0 0 20px;
+}
+.jumbotron h4 {
+    font-size: 15px;
+    padding: 0 0 0 20px;
+}
+#information {
+    background-color: #eee;
+    padding: 40px 0;
+}
+.info-content {
+    background-color: #fff;
+    margin: 0 0 20px 0;
+    box-shadow: 2px 2px 3px #ccc;
+}
+.info-content img {
+    margin: 12px 0;
+}
+.info-content h4 {
+    color: #333;
+    padding: 2px 0 0 0;
+    font-size: 14px;
+}
+.info-content p {
+    line-height: 1.6;
+}
+#footer {
+    background-color: #666;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    color: #eee;
+}
+.pic1{
+    background:  url( ../../../ajaxMe/serve/seemygo/image/nb-pro-video-ico.png) 50% 50% no-repeat;
+    background-size: 10px;
+
+}
+.pic2{
+    background:  url( ../../../ajaxMe/serve/seemygo/image/nb-pro-video-ico.png) 50% 50% no-repeat;
+    background-size:20px;
+}
+.pic3{
+    background:  url( ../../../ajaxMe/serve/seemygo/image/nb-pro-video-ico.png) 50% 50% no-repeat;
+    background-size: 20px;
+}
+.pic4{
+    background:  url( ../../../ajaxMe/serve/seemygo/image/nb-pro-video-ico.png) 50% 50% no-repeat;
+    background-size: 20px;
+}
+
+/*没有小于768px，是因为Bootstrap3以移动端优先设计*/
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+    .tab-h2 {
+        font-size: 26px;
+    }
+    .tab-p {
+        font-size: 16px;
+    }
+    .text h3 {
+        font-size: 22px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+    .tab2-text {
+        float: left;
+    }
+    .tab2-img {
+        float: right;
+    }
+    .tab5-text {
+        float: left;
+    }
+    .tab5-img {
+        float: right;
+    }
+    .jumbotron h1 {
+        font-size: 30px;
+    }
+    .jumbotron h4 {
+        font-size: 16px;
+    }
+    .info-content h4 {
+        font-size: 16px;
+    }
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+    .tab-h2 {
+        font-size: 28px;
+    }
+    .tab-p {
+        font-size: 17px;
+    }
+    .text h3 {
+        font-size: 24px;
+    }
+    .text p {
+        font-size: 16px;
+    }
+    .jumbotron h1 {
+        font-size: 33px;
+    }
+    .jumbotron h4 {
+        font-size: 17px;
+    }
+    .info-content h4 {
+        font-size: 18px;
+    }
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+    .tab-h2 {
+        font-size: 30px;
+    }
+    .tab-p {
+        font-size: 18px;
+    }
+    .text h3 {
+        font-size: 26px;
+    }
+    .text p {
+        font-size: 18px;
+    }
+    .jumbotron h1 {
+        font-size: 36px;
+    }
+    .jumbotron h4 {
+        font-size: 18px;
+    }
+    .info-content h4 {
+        font-size: 20px;
+    }
+}
